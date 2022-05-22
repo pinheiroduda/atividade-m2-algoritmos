@@ -2,7 +2,7 @@ import cmath
 
 name = input('Qual o seu nome? ')
 
-option = int(input(f'Olá {name}.\nDigite a opção desejada: \n1) Verificar triângulo \n2) Calcular equação do segundo grau \n3) Conferir  \n4) Verificar tamanho  do texto \n5) Analisar CPF \n6) Contar caracteres \n7) Sair \n: '))
+option = int(input(f'Olá {name}.\nDigite a opção desejada: \n1) Verificar triângulo \n2) Calcular equação do segundo grau \n3) Conferir data  \n4) Verificar tamanho  do texto \n5) Analisar CPF \n6) Contar caracteres \n7) Sair \n: '))
 
 if option == 1:
     a = int(input("Digite o primeiro valor: "))
@@ -64,11 +64,14 @@ elif option == 4:
         print("Texto inválido")
 
 elif option == 5:
-    cpf = int(input("Digite seu cpf contendo apenas os números: "))
+    cpf = input("Digite seu cpf contendo apenas os números: ")
 
-    if cpf.isDigit() == true and len(cpf) == 11:
+    # teste = cpf.isdigit()
+    # print(teste)
+
+    if cpf.isdigit() and (len(cpf) == 11):
         print("CPF válido")
-    elif cpf.isDigit() == false:
+    else:
         print("CPF inválido")
 
 elif option == 6:
