@@ -24,9 +24,9 @@ if option == 1:
         print("Os valores fornecidos não geram um triângulo")
 
 elif option == 2:
-    a = int(input("Digite o primeiro valor: "))
-    b = int(input("Digite o segundo valor: "))
-    c = int(input("Digite o terceiro valor: "))
+    a = int(input("Digite o valor de a: "))
+    b = int(input("Digite o valor de b: "))
+    c = int(input("Digite o valor de c: "))
 
     delta = (b * b - (4 * a * c))
 
