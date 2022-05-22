@@ -66,9 +66,6 @@ elif option == 4:
 elif option == 5:
     cpf = input("Digite seu cpf contendo apenas os números: ")
 
-    # teste = cpf.isdigit()
-    # print(teste)
-
     if cpf.isdigit() and (len(cpf) == 11):
         print("CPF válido")
     else:
