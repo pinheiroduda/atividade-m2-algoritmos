@@ -88,7 +88,7 @@ elif option == 6:
 
     totalOfOtherCharacters = otherCharacters - vowelsNumber - spaces
     print(
-        f"O seu texto possui {vowelsNumber} vogais, {spaces} espaços e {totalOfOtherCharacters} dos demais tipos de caracteres")
+        f"O seu texto possui {vowelsNumber} vogal(is), {spaces} espaço(s) e {totalOfOtherCharacters} dos demais tipos de caracteres")
 
 elif option == 7:
     print("Obrigado por utilizar nosso sistema.")
